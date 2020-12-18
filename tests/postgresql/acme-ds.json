@@ -1,0 +1,7 @@
+{
+  "type": "postgresql",
+  "host": "localhost",
+  "db": "acme",
+  "username": "acme_owner",
+  "password": "acme_owner"
+}

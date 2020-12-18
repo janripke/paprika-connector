@@ -1,0 +1,1 @@
+select * from application_properties where name=:name
