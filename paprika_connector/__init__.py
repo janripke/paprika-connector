@@ -1,4 +1,4 @@
-__version__ = '0.0.1.dev0'
+__version__ = '0.0.1-dev0'
 
 __title__ = 'paprika-connector'
 __description__ = 'paprika-connector for connecting to databases using the repository concept'
