@@ -1,4 +1,4 @@
-from isc_connector.connectors import helper
+from paprika_connector.connectors import helper
 import inspect
 import os
 

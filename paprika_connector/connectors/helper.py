@@ -1,5 +1,5 @@
 import datetime
-from isc_connector.system import ora
+from paprika_connector.system import ora
 
 
 def cursor_to_json(cursor):

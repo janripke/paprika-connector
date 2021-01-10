@@ -1,4 +1,4 @@
-from isc_connector.connectors.repository import Repository
+from paprika_connector.connectors.repository import Repository
 
 
 class PropertyRepository(Repository):
