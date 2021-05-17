@@ -10,7 +10,7 @@ paprika_connector currently supports Python 3.5 and higher.
 
 ## Install from github
 ```
-$ pip install git+https://github.com/janripke/paprika-connector.git@0.0.4#egg=paprika_connector
+$ pip install git+https://github.com/janripke/paprika-connector.git@0.0.5#egg=paprika_connector
 ```
 
 ## Clone and install from source
@@ -19,7 +19,7 @@ git clone https://github.com/janripke/paprika-connector.git
 $ cd paprika-connector
 # Checkout the release you want to use 
 # (NOTE: the master branch is NOT guaranteed to be stable!)
-$ git checkout tags/0.0.4
+$ git checkout tags/0.0.5
 $ pip install . 
 ```
 

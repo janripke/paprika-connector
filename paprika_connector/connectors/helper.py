@@ -28,7 +28,7 @@ def cursor_to_json(cursor):
 def dict_to_tuple(keywords, params):
     bindings = list()
     for keyword in keywords:
-        bindings.append(ora.nvl(params[keyword.lower()], None))
+        bindings.append(params.get(keyword))
     return tuple(bindings)
 
 
