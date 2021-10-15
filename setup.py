@@ -36,7 +36,6 @@ setup(
     name=find_meta('title'),
     version=find_meta('version'),
     description=find_meta('description'),
-    long_description=read('README.md'),
     license=find_meta('license'),
     author=find_meta('author'),
     author_email=find_meta('email'),
