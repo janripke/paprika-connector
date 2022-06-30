@@ -8,19 +8,24 @@ The Repository concept is introduced instead. Every repository class reflects id
 # Installation
 paprika_connector currently supports Python 3.5 and higher.
 
-## Install from github
+## Install from pypi
+```shell
+pip install paprika-connector
 ```
-$ pip install git+https://github.com/janripke/paprika-connector.git@0.0.6#egg=paprika_connector
+
+## Install from github
+```shell
+pip install git+https://github.com/janripke/paprika-connector.git@0.0.6#egg=paprika_connector
 ```
 
 ## Clone and install from source
-```
+```shell
 git clone https://github.com/janripke/paprika-connector.git
-$ cd paprika-connector
+cd paprika-connector
 # Checkout the release you want to use 
 # (NOTE: the master branch is NOT guaranteed to be stable!)
-$ git checkout tags/0.0.5
-$ pip install . 
+git checkout tags/0.0.6
+pip install . 
 ```
 
 # Quick start
@@ -31,8 +36,8 @@ It is assumed that the database server is present on your localhost.
 It is also assumed that the database acme is present.
 
 After connecting a cursor is retrieved and the system datetime is retrieved from
-the data server.
-```
+the database server.
+```python
 from paprika_connector.connectors.connector_factory import ConnectorFactory
 
 acme_ds = {

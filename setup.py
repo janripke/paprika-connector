@@ -67,7 +67,8 @@ setup(
     extras_require={
         'mysql': ['mysqlclient'],
         'postgresql': ['psycopg2-binary'],
-        'mssql': ['pymssql', 'pyodbc']
+        'mssql': ['pymssql', 'pyodbc'],
+        "test": ["pytest", "pytest-cov"]
     },
 )
 
